@@ -20,3 +20,52 @@ var Persona={
 //Forma de generar un objeto dentro de JavaScritp;
 
 Persona;
+
+
+// Las variables se crean con let
+let CajadeAndy="Woody"
+console.log(CajadeAndy)
+
+// Las constantes se crean con const
+const Pi=3.1416
+console.log(Pi)
+
+//tipo de datos en JS
+//Primitivos
+
+//String (Cadenas de caracteres)
+let Nombre = 'Luis'
+
+//Number
+let Edad = 24
+
+//Boolean 
+let mayor_edad = true
+
+//NULL
+let sin_valor = null
+
+//Undefiend
+let no_definido = undefined
+
+//Symbol se utiliza para valores unicos
+let simbolo_unico = Symbol('unico')
+
+//bigint para datos muy grandes
+let numero_grande = 2n
+
+//Complejos
+
+//object 
+let carro = {
+    marca: 'tesla',
+    modelo: 'model s'
+}
+
+//arrays
+let frutas = ['manzana','banana','pera']
+
+//funcion
+function saludar(){
+    
+}
